@@ -1,3 +1,6 @@
+## Architecture
+
+![Architecture](Architecture%20image.png)
 
 # 🛒 Static E-Commerce Frontend on AWS
 
