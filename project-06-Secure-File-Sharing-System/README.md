@@ -30,7 +30,7 @@ Flow:
 
 # Architecture Diagram
 
-![Architecture](architecture image.png)
+![Architecture](architecture.png)
 
 ---
 
@@ -78,6 +78,43 @@ PUT <presigned-url>
 Body → binary → image.jpg
 
 The file is uploaded **directly to S3 without passing through Lambda**.
+
+---
+
+# Lambda Function Code (Python)
+
+```python
+import json
+import boto3
+import uuid
+
+s3 = boto3.client('s3')
+
+bucket_name = "secure-file-upload-sudharsan"
+
+def lambda_handler(event, context):
+
+    file_name = str(uuid.uuid4()) + ".jpg"
+
+    upload_url = s3.generate_presigned_url(
+        "put_object",
+        Params={
+            "Bucket": bucket_name,
+            "Key": file_name
+        },
+        ExpiresIn=300
+    )
+
+    return {
+        "statusCode": 200,
+        "body": json.dumps({
+            "uploadURL": upload_url,
+            "fileName": file_name
+        })
+    }
+```
+
+---
 
 # IAM Policy Used
 
