@@ -175,7 +175,7 @@ terraform apply
 
 # Access
 
-http://<your-public-ip>
+ # http://<your-public-ip>
 
 ---
 
