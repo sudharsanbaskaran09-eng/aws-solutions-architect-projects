@@ -113,14 +113,6 @@ http://<your-s3-website-url>
 
 ---
 
-# Project Structure
-
-project-09-CI-CD-Pipeline/  
-│── index.html  
-│── README.md  
-
----
-
 # Author
 
 Sudharsan B  
