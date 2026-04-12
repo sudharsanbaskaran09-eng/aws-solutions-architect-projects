@@ -11,21 +11,6 @@ An EC2 instance is created, configured with IAM (SSM access), secured using Secu
 - Amazon VPC  
 - Security Groups  
 
----
-
-# Architecture Diagram
-
-![Architecture](architecture.png)
-
----
-
-# How It Works
-
-## Step 1 — Infrastructure Provisioning
-
-Terraform creates:
-- EC2 instance  
-- Security Group (HTTP + SSH)  
 - IAM Role + Instance Profile  
 
 ---
