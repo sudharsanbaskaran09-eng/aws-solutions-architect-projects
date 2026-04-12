@@ -86,17 +86,7 @@ resource "aws_iam_role" "ssm_role" {
   name = "ec2-ssm-role-new"
 
   assume_role_policy = jsonencode({
-    Version = "2012-10-17"
-    Statement = [
-      {
-        Effect = "Allow"
-        Principal = {
-          Service = "ec2.amazonaws.com"
-        }
-        Action = "sts:AssumeRole"
-      }
-    ]
-  })
+    Version = "2012-10
 }
 
 resource "aws_iam_role_policy_attachment" "ssm_attach" {
