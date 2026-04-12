@@ -64,22 +64,6 @@ provider "aws" {
 }
 
 data "aws_ami" "amazon_linux" {
-  most_recent = true
-  owners      = ["amazon"]
-
-  filter {
-    name   = "name"
-    values = ["amzn2-ami-hvm-*-x86_64-gp2"]
-  }
-}
-
-resource "aws_security_group" "my_sg" {
-  name = "terraform-sg"
-
-  ingress {
-    from_port   = 80
-    to_port     = 80
-    protocol    = "tcp"
     cidr_blocks = ["0.0.0.0/0"]
   }
 
