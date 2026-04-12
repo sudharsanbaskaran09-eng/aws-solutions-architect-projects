@@ -9,19 +9,6 @@ An EC2 instance is created, configured with IAM (SSM access), secured using Secu
 
 - AWS Systems Manager (SSM)  
 - Amazon VPC  
-- Security Groups  
-
-- IAM Role + Instance Profile  
-
----
-
-## Step 2 — Secure Access via SSM
-
-Instead of SSH keys, the instance is accessed using:
-- AWS Systems Manager (Session Manager)  
-- IAM Role with required permissions  
-
----
 
 ## Step 3 — NGINX Installation
 
