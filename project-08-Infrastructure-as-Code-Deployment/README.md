@@ -8,16 +8,7 @@ An EC2 instance is created, configured with IAM (SSM access), secured using Secu
 
 
 - AWS Systems Manager (SSM)  
-- Amazon VPC  
-
-## Step 3 — NGINX Installation
-
-Using user_data, the EC2 instance runs:
-
-yum update -y  
-amazon-linux-extras install nginx1 -y  
-systemctl start nginx  
-systemctl enable nginx  
+- Amazon VPC
 
 ---
 
