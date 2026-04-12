@@ -10,10 +10,7 @@ An EC2 instance is created, configured with IAM (SSM access), secured using Secu
 
 Terraform → AWS → EC2 → NGINX → Internet
 
-Flow:
-
-1. Terraform provisions infrastructure  
-2. EC2 instance is created  
+Flo
 3. IAM role enables secure SSM access (no SSH keys)  
 4. Security Group allows HTTP (port 80)  
 5. NGINX is installed using user data  
