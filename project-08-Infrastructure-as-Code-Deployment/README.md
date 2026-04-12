@@ -6,19 +6,7 @@ An EC2 instance is created, configured with IAM (SSM access), secured using Secu
 
 ---
 
-# Architecture Overview
 
-Terraform → AWS → EC2 → NGINX → Internet
-
-Flo
-3. IAM role enables secure SSM access (no SSH keys)  
-4. Security Group allows HTTP (por
----
-
-# AWS Services Used
-
-- Amazon EC2  
-- AWS IAM  
 - AWS Systems Manager (SSM)  
 - Amazon VPC  
 - Security Groups  
