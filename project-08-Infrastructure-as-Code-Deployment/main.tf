@@ -71,15 +71,6 @@ resource "aws_iam_instance_profile" "ssm_profile" {
   role = aws_iam_role.ssm_role.name
 }
 
-# EC2 Instance
-resource "aws_instance" "my_ec2" {
-  ami           = data.aws_ami.amazon_linux.id
-  instance_type = "t2.micro"
-
-  vpc_security_group_ids = [aws_security_group.my_sg.id]
-  iam_instance_profile   = aws_iam_instance_profile.ssm_profile.name
-
-  user_data = <<-EOF
               #!/bin/bash
               yum update -y
               amazon-linux-extras install nginx1 -y
