@@ -1,21 +1,5 @@
 provider "aws" {
   region = "us-east-1"
-}
-
-# Get latest Amazon Linux 2 AMI
-data "aws_ami" "amazon_linux" {
-  most_recent = true
-  owners      = ["amazon"]
-
-  filter {
-    name   = "name"
-    values = ["amzn2-ami-hvm-*-x86_64-gp2"]
-  }
-}
-
-# Security Group (Allow HTTP + SSH)
-resource "aws_security_group" "my_sg" {
-  name = "terraform-sg"
 
   ingress {
     description = "HTTP"
