@@ -9,17 +9,6 @@ Instead of sending files through a backend server, the client receives a tempora
 # Architecture Overview
 e.png)
 
----
-
-# How It Works
-
-### Step 1 — Client Requests Upload URL
-
-Client sends request to API Gateway:
-
-```
-GET /upload
-```
 
 API Gateway triggers the Lambda function.
 
