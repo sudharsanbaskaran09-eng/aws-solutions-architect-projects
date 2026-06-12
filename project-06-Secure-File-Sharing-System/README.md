@@ -2,19 +2,7 @@
 
 {
  "uploadURL": "presigned-url",
- "fileName": "generated-file-name.jpg"
-}
-```
 
----
-
-### Step 4 — Client Uploads File
-
-Client uploads the file using:
-
-```
-PUT <presigned-url>
-```
 
 Body → binary → image.jpg
 
