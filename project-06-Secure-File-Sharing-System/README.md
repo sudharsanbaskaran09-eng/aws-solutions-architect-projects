@@ -10,14 +10,6 @@ Instead of sending files through a backend server, the client receives a tempora
 e.png)
 
 
-API Gateway triggers the Lambda function.
-
----
-
-### Step 2 — Lambda Generates Pre-Signed URL
-
-Lambda generates a temporary signed URL that allows uploading a file directly to S3.
-
 ---
 
 ### Step 3 — Lambda Returns URL
