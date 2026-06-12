@@ -7,18 +7,7 @@ Instead of sending files through a backend server, the client receives a tempora
 ---
 
 # Architecture Overview
-
-Client → API Gateway → Lambda → Generate Pre-Signed URL → Upload Directly to S3
-
-- AWS Lambda
-- Amazon S3
-- AWS IAM
-
----
-
-# Architecture Diagram
-
-![Architecture](architecture.png)
+e.png)
 
 ---
 
