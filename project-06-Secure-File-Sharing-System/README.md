@@ -1,36 +1,5 @@
 # Secure Serverless File Upload using AWS (Pre-Signed URLs)
 
-{
- "uploadURL": "presigned-url",
-
-
-Body → binary → image.jpg
-
-Thd4()) + ".jpg"
-
-    upload_url = s3.generate_presigned_url(
-        "put_object",
-        Params={
-            "Bucket": bucket_name,
-            "Key": file_name
-        },
-        ExpiresIn=300
-    )
-
-    return {
-        "statusCode": 200,
-        "body": json.dumps({
-            "uploadURL": upload_url,
-            "fileName": file_name
-        })
-    }
-```
-
----
-
-# IAM Policy Used
-
-The Lambda execution role requires permission to upload objects to the S3 bucket.
 
 ```
 {
