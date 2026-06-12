@@ -8,30 +8,7 @@
    {
      "Effect": "Allow",
      "Action": "s3:PutObject",
-     "Resource": "arn:aws:s3:::secure-file-upload-sudharsan/*"
-   }
- ]
-}
-```
-
----
-
-# Testing with Postman
-
-### Step 1 — Generate Pre-Signed URL
-
-```
-GET https://<api-id>.execute-api.us-east-1.amazonaws.com/prod/upload
-```
-
-Response:
-
-```
-{
- "uploadURL": "...",
- "fileName": "example.jpg"
-}
-```
+     "Re
 
 ---
 
