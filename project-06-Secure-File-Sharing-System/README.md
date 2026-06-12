@@ -10,18 +10,6 @@ Instead of sending files through a backend server, the client receives a tempora
 
 Client → API Gateway → Lambda → Generate Pre-Signed URL → Upload Directly to S3
 
-Flow:
-
-1. Client requests an upload URL
-2. API Gateway triggers Lambda
-3. Lambda generates a pre-signed URL
-4. Client uploads file directly to S3 using PUT request
-
----
-
-# AWS Services Used
-
-- Amazon API Gateway
 - AWS Lambda
 - Amazon S3
 - AWS IAM
