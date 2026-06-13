@@ -2,4 +2,4 @@
 
 ⚠️ Note:
 
-This project (including CI/CD implementation) is maintained in another repository.
+This project (including CI/CD implementation) is maintained in another ry.
