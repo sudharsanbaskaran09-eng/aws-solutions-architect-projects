@@ -1,4 +1,3 @@
-# CI/CD Pipeline using AWS CodePipeline (S3 Deployment)
 
 This project demonstrates how to build a simpl
 atic website without any manual steps.
