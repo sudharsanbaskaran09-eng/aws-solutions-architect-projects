@@ -4,12 +4,6 @@ This project demonstrates how to build a simple CI/CD pipeline on AWS using Code
 
 ver code is pushed to GitHub, it is automatically deployed to an S3 static website without any manual steps.
 
----
-
-# Architecture Overview
-
-
-Flow:
 
 1. Code is pushed to GitHub  
 2. CodePipeline detects the change  
