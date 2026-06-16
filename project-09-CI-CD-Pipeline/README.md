@@ -8,7 +8,6 @@ Whenever code is pushed to GitHub, it is automatically deployed to an S3 static 
 
 # Architecture Overview
 
-GitHub → CodePipeline → S3 → Internet
 
 Flow:
 
