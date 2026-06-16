@@ -17,9 +17,6 @@ Flow:
 4. Files are deployed to S3 bucket  
 5. Website updates instantly  
 
----
-
-# AWS Services Used
 
 - AWS CodePipeline  
 - Amazon S3  
