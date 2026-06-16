@@ -3,9 +3,6 @@
 This project demonstrates how to build a simpl
 atic website without any manual steps.
 
-
-1. Code is pushed to GitHub  
-2. CodePipeline detects the change  
 3. Pipeline triggers automatically  
 4. Files are deployed to S3 bucket  
 5. Website updates instantly  
