@@ -19,19 +19,6 @@ atic website without any manual steps.
 
 ---
 
-# How It Works
-
-## Step 1 — S3 Setup
-
-- Created S3 bucket  
-- Enabled static website hosting  
-- Uploaded initial index.html  
-
----
-
-## Step 2 — Pipeline Creation
-
-- Created pipeline using CodePipeline  
 - Connected GitHub repository  
 - Selected main branch  
 
