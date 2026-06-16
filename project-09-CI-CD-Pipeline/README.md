@@ -1,25 +1,4 @@
-
-This project demonstrates how to build a simpl
-atic website without any manual steps.
-
-3. Pipeline triggers automatically  
-4. Files are deployed to S3 bucket  
-5. Website updates instantly  
-
-
-- AWS CodePipeline  
-- Amazon S3  
-- GitHub  
-
----
-
-# Architecture Diagram
-
-![Architecture](architecture.png)
-
----
-
-- Connected GitHub repository  
+tHub repository  
 - Selected main branch  
 
 ---
