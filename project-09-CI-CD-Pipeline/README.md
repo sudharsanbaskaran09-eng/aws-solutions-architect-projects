@@ -1,4 +1,53 @@
-tHub repository  
+# CI/CD Pipeline using AWS CodePipeline (S3 Deployment)
+
+This project demonstrates how to build a simple CI/CD pipeline on AWS using CodePipeline.
+
+Whenever code is pushed to GitHub, it is automatically deployed to an S3 static website without any manual steps.
+
+---
+
+# Architecture Overview
+
+GitHub → CodePipeline → S3 → Internet
+
+Flow:
+
+1. Code is pushed to GitHub  
+2. CodePipeline detects the change  
+3. Pipeline triggers automatically  
+4. Files are deployed to S3 bucket  
+5. Website updates instantly  
+
+---
+
+# AWS Services Used
+
+- AWS CodePipeline  
+- Amazon S3  
+- GitHub  
+
+---
+
+# Architecture Diagram
+
+![Architecture](architecture.png)
+
+---
+
+# How It Works
+
+## Step 1 — S3 Setup
+
+- Created S3 bucket  
+- Enabled static website hosting  
+- Uploaded initial index.html  
+
+---
+
+## Step 2 — Pipeline Creation
+
+- Created pipeline using CodePipeline  
+- Connected GitHub repository  
 - Selected main branch  
 
 ---
