@@ -10,26 +10,6 @@ The architecture distributes incoming traffic across multiple EC2 instances and 
 
 ---
 
-## AWS Services Used
-
-### Amazon EC2
-- Hosts the web server
-- Runs an Apache web application
-
-### Application Load Balancer (ALB)
-- Distributes incoming traffic across EC2 instances
-- Improves application availability
-
-### Auto Scaling Group
-- Automatically launches or terminates EC2 instances
-- Maintains desired capacity based on demand
-
-### Target Group
-- Registers EC2 instances behind the load balancer
-- Performs health checks to ensure only healthy instances receive traffic
-
----
-
 ## Architecture
 
 ```
