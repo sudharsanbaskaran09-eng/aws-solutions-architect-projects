@@ -3,15 +3,7 @@
 Flow:
 
 1. Code is pushed to GitHub  
-2. CodePipeline detects the change  
-3. Pipeline triggers automatically  
-4. Files are deployed to S3 bucket  
-5. Website updates instantly  
-
----
-
-# AWS Services Used
-
+2. CodePipeli
 - AWS CodePipeline  
 - Amazon S3  
 - GitHub  
