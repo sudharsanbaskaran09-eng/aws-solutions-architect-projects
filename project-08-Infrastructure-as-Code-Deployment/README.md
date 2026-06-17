@@ -1,4 +1,43 @@
+# CloudInfra: EC2 NGINX Deployment using Terraform
 
+This project demonstrates how to provision and configure a web server on AWS using Terraform (Infrastructure as Code).
+
+An EC2 instance is created, configured with IAM (SSM access), secured using Security Groups, and automatically installs NGINX to serve a web page.
+
+---
+
+# Architecture Overview
+
+Terraform → AWS → EC2 → NGINX → Internet
+
+Flow:
+
+1. Terraform provisions infrastructure  
+2. EC2 instance is created  
+3. IAM role enables secure SSM access (no SSH keys)  
+4. Security Group allows HTTP (port 80)  
+5. NGINX is installed using user data  
+6. Web server is accessible via public IP  
+
+---
+
+# AWS Services Used
+
+- Amazon EC2  
+- AWS IAM  
+- AWS Systems Manager (SSM)  
+- Amazon VPC  
+- Security Groups  
+
+---
+
+# Architecture Diagram
+
+![Architecture](architecture.png)
+
+---
+
+# How It Works
 
 ## Step 1 — Infrastructure Provisioning
 
