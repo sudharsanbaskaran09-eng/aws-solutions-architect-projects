@@ -1,13 +1,5 @@
 
 
----
-
-# Architecture Diagram
-
----
-
-# How It Works
-
 ## Step 1 — Infrastructure Provisioning
 
 Terraform creates:
