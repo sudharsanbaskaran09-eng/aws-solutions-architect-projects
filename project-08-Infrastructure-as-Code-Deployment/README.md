@@ -179,12 +179,7 @@ terraform apply
 
 ---
 
-# Challenges Faced
-
-- HTTP not working → Fixed via Security Group  
-- Subnet issue → Fixed route table  
-- SSM not connecting → Fixed IAM role  
-
+# C
 ---
 
 # Key Learnings
