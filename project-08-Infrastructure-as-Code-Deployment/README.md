@@ -15,8 +15,6 @@
 
 # Architecture Diagram
 
-![Architecture](architecture.png)
-
 ---
 
 # How It Works
