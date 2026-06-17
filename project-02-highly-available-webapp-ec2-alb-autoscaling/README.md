@@ -1,12 +1,3 @@
-##
-  ↓
-Auto Scaling Group
-  ↓
-EC2 Instances
-```
-
----
-
 ## Key Concepts Demonstrated
 
 - High Availability Architecture
