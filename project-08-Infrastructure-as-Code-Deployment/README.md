@@ -1,15 +1,4 @@
-5. NGINX is installed using user data  
-6. Web server is accessible via public IP  
 
----
-
-# AWS Services Used
-
-- Amazon EC2  
-- AWS IAM  
-- AWS Systems Manager (SSM)  
-- Amazon VPC  
-- Security Groups  
 
 ---
 
