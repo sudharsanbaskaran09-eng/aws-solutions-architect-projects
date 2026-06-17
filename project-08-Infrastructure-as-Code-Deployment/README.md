@@ -1,9 +1,3 @@
-# CloudI
-An EC2 instance is created, configured with IAM (SSM access), secured using Security Groups, and automatically installs NGINX to serve a web page.
-
----
-
-ws HTTP (port 80)  
 5. NGINX is installed using user data  
 6. Web server is accessible via public IP  
 
