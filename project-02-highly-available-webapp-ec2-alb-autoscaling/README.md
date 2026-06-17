@@ -1,13 +1,3 @@
-## Key Concepts Demonstrated
-
-- High Availability Architecture
-- Load Balancing with Application Load Balancer
-- Automatic scaling of EC2 instances
-- Health checks using target groups
-- Fault-tolerant infrastructure
-
----
-
 ## Screenshots
 
 - EC2 instance launched  
