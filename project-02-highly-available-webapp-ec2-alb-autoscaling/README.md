@@ -1,21 +1,4 @@
-## Architecture
-
-![Architecture](Architecture%20image.png)
-
-# Highly Available Web Application on AWS
-
-This project demonstrates how to deploy a **highly available and scalable web application on AWS** using **Amazon EC2, Application Load Balancer (ALB), and Auto Scaling**.
-
-The architecture distributes incoming traffic across multiple EC2 instances and automatically launches new instances when needed, ensuring reliability and high availability.
-
----
-
-## Architecture
-
-```
-User
-  ↓
-Application Load Balancer
+##
   ↓
 Auto Scaling Group
   ↓
