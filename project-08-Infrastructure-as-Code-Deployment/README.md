@@ -6,11 +6,7 @@ An EC2 instance is created, configured with IAM (SSM access), secured using Secu
 
 ---
 
-# Architecture Overview
-
-2. EC2 instance is created  
-3. IAM role enables secure SSM access (no SSH keys)  
-4. Security Group allows HTTP (port 80)  
+ws HTTP (port 80)  
 5. NGINX is installed using user data  
 6. Web server is accessible via public IP  
 
