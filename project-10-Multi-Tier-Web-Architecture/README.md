@@ -5,5 +5,5 @@
 This project (including CI/CD implementati
 
 👉 Repository Link:
-https://github.com/sudharsanbaskaran09-eng/nodejs-rds-app
+https://github.com/sudharsanbaskaran09-eng/nodejs
 
