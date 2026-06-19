@@ -2,7 +2,7 @@
 
 ⚠️ Note:
 
-This project (including CI/CD implementation) is maintained in another repository.
+This project (including CI/CD implementati
 
 👉 Repository Link:
 https://github.com/sudharsanbaskaran09-eng/nodejs-rds-app
