@@ -5,13 +5,6 @@ This repository contains **10 real-world AWS projects** built while learning and
 The goal of this repository is to demonstrate practical knowledge in:
 
 - Cloud Architecture
-- Security Best Practices
-- High Availability
-- Serverless Computing
-- Infrastructure Automation
-- Monitoring and DevOps
-
-Each project focuses on specific AWS services and architectural patterns used in real-world cloud environments.
 
 ---
 
