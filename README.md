@@ -2,10 +2,6 @@
 
 This repository contains **10 real-world AWS projects** built while learning and practicing cloud architecture concepts aligned with the **AWS Certified Solutions Architect – Associate (SAA-C03)** certification.
 
-The goal of this repository is to demonstrate practical knowledge in:
-
-- Cloud Architecture
-
 ---
 
 # 📦 Projects Included
