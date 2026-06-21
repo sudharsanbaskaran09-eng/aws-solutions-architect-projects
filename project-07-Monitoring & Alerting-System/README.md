@@ -14,10 +14,7 @@ Flow:
 
 1. EC2 instance generates CPU metrics
 2. CloudWatch collects and monitors metrics
-3. Alarm triggers when threshold is breached
-4. SNS sends notification to email
 
----
 
 # AWS Services Used
 
