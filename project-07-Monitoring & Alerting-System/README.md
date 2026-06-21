@@ -10,13 +10,6 @@ Flow:
 2. CloudWatch collects and monitors metrics
 
 
-# AWS Services Used
-
-- Amazon EC2
-- Amazon CloudWatch
-- Amazon SNS (Simple Notification Service)
-- AWS Systems Manager (SSM)
-- AWS IAM
 
 ---
 
