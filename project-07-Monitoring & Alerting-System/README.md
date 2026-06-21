@@ -1,8 +1,7 @@
 # AWS Cloud Monitoring & Alerting System (CloudWatch + SNS)
  and alerting system on AWS** using **Amazon EC2, CloudWatch, and SNS**.
 
-# Architecture Overview
- SNS → Email Notification
+# Architecture Oven
 
 Flow:
 
