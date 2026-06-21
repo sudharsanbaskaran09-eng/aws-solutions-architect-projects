@@ -1,8 +1,5 @@
 # AWS Cloud Monitoring & Alerting System (CloudWatch + SNS)
  and alerting system on AWS** using **Amazon EC2, CloudWatch, and SNS**.
-nds **email alerts** when the threshold is exceeded. This is a common production pattern used for infrastructure monitoring.
-
----
 
 # Architecture Overview
  SNS → Email Notification
