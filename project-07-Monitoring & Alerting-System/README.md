@@ -6,8 +6,7 @@ nds **email alerts** when the threshold is exceeded. This is a common production
 ---
 
 # Architecture Overview
-
-EC2 Instance → CloudWatch Metrics → CloudWatch Alarm → SNS → Email Notification
+ SNS → Email Notification
 
 Flow:
 
