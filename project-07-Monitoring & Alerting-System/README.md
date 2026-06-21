@@ -1,8 +1,7 @@
 # AWS Cloud Monitoring & Alerting System (CloudWatch + SNS)
 
 This project demonstrates how to build a **real-time monitoring and alerting system on AWS** using **Amazon EC2, CloudWatch, and SNS**.
-
-The system continuously monitors CPU utilization of an EC2 instance and automatically sends **email alerts** when the threshold is exceeded. This is a common production pattern used for infrastructure monitoring.
+nds **email alerts** when the threshold is exceeded. This is a common production pattern used for infrastructure monitoring.
 
 ---
 
