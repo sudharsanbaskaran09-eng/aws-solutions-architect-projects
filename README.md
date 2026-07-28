@@ -1,1 +1,1 @@
-# AWS Solutions Architect — Hands‑On Projects
+# AWS Solutions Architect — Hands‑On Proj
